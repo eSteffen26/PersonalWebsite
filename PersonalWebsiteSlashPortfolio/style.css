@@ -18,9 +18,17 @@ Green & Black
   font-family: "Helvetica", sans-serif;
 }
 
+h2
+{
+  font-size: 4em;
+  margin-bottom: 0px;
+}
+
 p 
 {
   font: "Roboto 0", sans-serif;
+  margin-top: 0px;
+  font-size: 1.75em;
 } 
 
 body 
@@ -33,7 +41,7 @@ body
 
 section
 {
-  
+
 }
 
 .topnav /* Style the top navigation bar */
@@ -60,13 +68,35 @@ section
   color: #0a0a0a;
 }
 
-.content /* Style the top section where you see the image and text introducing the page */
+#houseIcon
 {
-  background-image: linear-gradient(#a7a917, #0a0a0a);
-  color: #0a0a0a;
-  padding: 20px;
-  height: 400px; /* change to fit height of image */
+  width: 20px;
+  height: 25px;
+  padding-bottom: 6px;
+}
+
+#bannerImage img /* Formats the banner image at the top of the page */
+{
+  float: right;
+  height: 661px;
+}
+
+.Banner /* Formats the box that the image and text are stored. Mainly there to keep space on page for banner. */
+{
   margin: 0px;
+  padding: 0px;
+  height: 661px;
+  /* background-color: rgb(128, 0, 255); */
+}
+
+.BannerText /* Formats the text on top of the banner image */
+{
+  /* background-color: #1FB2A2; */
+  color: #0a0a0a;
+  position: relative;
+  bottom: -50px;
+  height: 0px;
+  padding-left: 40px;
 }
 
 .footer  /* Style the footer */
@@ -77,6 +107,15 @@ section
 }
 
 /* ------------------------- Main Page Specific Items ------------------------- */
+
+.content /* Style the top section where you see the image and text introducing the page */
+{
+  background-image: linear-gradient(#a7a917, #0a0a0a);
+  color: #0a0a0a;
+  padding: 20px;
+  height: 661; /* change to fit height of image */
+  margin: 0px;
+}
 
 #introText
 {
@@ -122,3 +161,6 @@ section
   background-image: linear-gradient(#0a0a0a, #00584c, #1FB2A2); /* remove when image is in */
   height: 100px; /* Change to fit image height */
 }
+
+/* ------------------------- Meet Me page ------------------------- */
+
