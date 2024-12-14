@@ -32,28 +32,16 @@ Green & Black
    color: #0a0a0a;
  }
 
-.content /* Style the top section where you see the image and text introducing the page */
+.Banner
 {
-  background-image: linear-gradient(#a7a917, #0a0a0a);
-  color: #0a0a0a;
-  padding: 20px;
-  height: 661; /* change to fit height of image */
-  margin: 0px;
+  background-color: #a5a821;
 }
 
-#introText
+.BannerText
 {
-  font-size: 1.5em;
-  padding-left: 20px;
-}
-
-.frontPageImage 
-{
-  position: relative;
-  display: flex;
-  float: right;
-  width: 100%;
-  /* height: 200px; */
+  -webkit-text-stroke-color: #a5a821;
+  -webkit-text-stroke-width: 0.8px;
+  font-weight: 600;
 }
 
 .cirAndSqurs
@@ -70,13 +58,37 @@ Green & Black
   
 }
 
-.PersonlStatement
+.PersonalStatement
 {
   background-color: #00584c;
   padding: 20px;
+  padding-bottom: 40px;
   border: 2px solid #fafafa;
   border-left: 0px;
   border-right: 0px;
+  display: inline-block;
+}
+
+.PersonalStatement h2
+{
+  margin: 20px 100px 15px 100px;
+  font-size: 3.5em;
+}
+
+.PersonalStatement p
+{
+  margin: 0px 0px 0px 100px;
+  font-size: 2em;
+  font-weight: 300;
+  padding-top: 20px;
+}
+
+.PersonalStatement img
+{
+  width: 200px;
+  float: right;
+  margin: 0px 100px 0px 20px;
+  border: #fafafa solid 2px;
 }
 
 .BottomImage

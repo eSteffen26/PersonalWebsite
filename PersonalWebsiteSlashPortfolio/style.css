@@ -32,6 +32,12 @@ p
   font-size: 1.75em;
 } 
 
+a
+{
+  text-decoration: none;
+  color: #fafafa;
+}
+
 body 
 {
   margin: 0;
@@ -92,7 +98,6 @@ body
 
 .BannerText /* Formats the text on top of the banner image */
 {
-  /* background-color: #1FB2A2; */
   color: #0a0a0a;
   position: relative;
   bottom: -25px;
@@ -111,8 +116,42 @@ body
 
 .footer  /* Style the footer */
 {
-  margin: 20px;
+  margin: 30px;
   background-color: #0a0a0a;
   padding: 10px;
+}
+
+.footer h3
+{
+  font-size: 1.8em;
+  font-weight: 800;
+  margin-bottom: 10px;
+  border: 2px solid #fafafa;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.footer p
+{
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.footer img
+{
+  float: right;
+}
+
+.footer a
+{
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.footer a:hover
+{
+  color: #a7a917;
+  text-decoration: underline;
 }
 
