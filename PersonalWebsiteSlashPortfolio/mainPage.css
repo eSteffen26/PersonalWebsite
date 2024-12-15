@@ -46,13 +46,12 @@ Green & Black
 
 .cirAndSqurs
 {
-  padding: 10%;
+  margin: 70px;
   background-color: #0a0a0a;
 }
 
 .itemInCirclesAndSquares
 {
-  padding: 20px;
   font-size: 30px;
   text-align: center;
   

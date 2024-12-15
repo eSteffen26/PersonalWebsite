@@ -36,3 +36,80 @@ Green & Black
 {
   background-color: #00584c;
 }
+
+.ProjectBox
+{
+  border: 3px solid #fafafa;
+  border-radius: 8px;
+  margin: 40px;
+}
+
+.ProjectBox h3
+{
+  margin: 20px 20px 15px 20px;
+  font-size: 30px;
+}
+
+.ProjectBox h4
+{
+  margin: 0px 20px 5px 20px;
+  font-size: 23px;
+}
+
+.ProjectBox p
+{
+  margin: 10px 18px 18px 18px;
+  line-height: 28px;
+}
+
+.progressBar
+{
+  background-color: #00584c;
+  border: #fafafa solid 2px;
+  margin: 10px 40px 10px 40px;
+  height: 20px;
+}
+
+.MostRecentPost
+{
+  height: 200px;
+  background-color: #00584c;
+  padding: 5px;
+}
+
+.MostRecentPost p
+{
+  margin-top: 20px;
+}
+
+.MostRecentPost img
+{
+  height: 150px;
+  width: 150px;
+  border: solid 3px #fafafa;
+  margin: 20px;
+  float: left;
+}
+
+.BlogPost
+{
+  background-color: #03bfa6;
+  margin: 20px;
+  display: inline-block;
+}
+
+.BlogPost p
+{
+  font-size: 12px;
+  margin: 0px 20px 0px 20px;
+  
+}
+
+.BlogPost img
+{
+  height: 100px;
+  width: 100px;
+  border: solid 3px #fafafa;
+  margin: 20px 20px 0px 20px;
+
+}

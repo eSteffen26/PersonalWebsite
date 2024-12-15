@@ -36,3 +36,52 @@ Green & Black
 {
   background-color: #00584c;
 }
+
+.ProjectBox
+{
+  border: 3px solid #fafafa;
+  border-radius: 8px;
+  margin: 40px;
+}
+
+.ProjectBox h3
+{
+  margin: 20px 20px 15px 20px;
+  font-size: 30px;
+}
+
+.ProjectBox h4
+{
+  margin: 0px 20px 5px 20px;
+  font-size: 23px;
+}
+
+.ProjectBox p
+{
+  margin: 10px 18px 18px 18px;
+  line-height: 28px;
+}
+
+.imageWithDescription
+{
+  height: 250px;
+  width: 200px;
+  margin: 10px 0px 5px 20px;
+  display: inline-block;
+}
+
+.imageWithDescription img
+{
+  border: 3px solid #fafafa;
+  /* float: left; */
+  height: 200px;
+  width: 200px;
+  margin: 0px;
+}
+
+.imageWithDescription p
+{
+  margin-top: 0px;
+  font-size: 12px;
+  text-align: center;
+}
