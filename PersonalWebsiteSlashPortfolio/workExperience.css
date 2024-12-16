@@ -70,3 +70,8 @@ Green & Black
   width: 50px;
   margin: 10px 15px 20px 20px;
 }
+
+li
+{
+  line-height: 28px;
+}

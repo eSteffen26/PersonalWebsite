@@ -32,6 +32,13 @@ p
   font-size: 20px;
 } 
 
+li
+{
+  font: "Roboto 0", sans-serif;
+  margin-top: 0px;
+  font-size: 20px;
+}
+
 a
 {
   text-decoration: none;

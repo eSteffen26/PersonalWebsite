@@ -109,7 +109,7 @@ Green & Black
 .Example
 {
   border: 3px solid #fafafa;
-  height: 50px;
-  width: 50px;
-  margin: 10px 15px 0px 20px;
+  height: 500px;
+  /* width: 500px; */
+  margin: 10px 15px 10px 20px;
 }

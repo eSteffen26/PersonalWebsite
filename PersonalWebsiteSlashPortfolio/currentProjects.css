@@ -73,7 +73,7 @@ Green & Black
 .MostRecentPost
 {
   height: 200px;
-  background-color: #00584c;
+  /* background-color: #00584c; */
   padding: 5px;
 }
 
@@ -85,7 +85,7 @@ Green & Black
 .MostRecentPost img
 {
   height: 150px;
-  width: 150px;
+  /* width: 150px; */
   border: solid 3px #fafafa;
   margin: 20px;
   float: left;
@@ -93,7 +93,7 @@ Green & Black
 
 .BlogPost
 {
-  background-color: #03bfa6;
+  /* background-color: #03bfa6; */
   margin: 20px;
   display: inline-block;
 }
@@ -108,7 +108,7 @@ Green & Black
 .BlogPost img
 {
   height: 100px;
-  width: 100px;
+  /* width: 100px; */
   border: solid 3px #fafafa;
   margin: 20px 20px 0px 20px;
 
