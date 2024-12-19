@@ -37,6 +37,16 @@ Green & Black
   background-color: #a5a821;
 }
 
+.introParagraph a
+{
+  color: #a5a821;
+}
+
+.introParagraph a:hover
+{
+  text-decoration: underline;
+}
+
 .JobBox
 {
   border: 3px solid #fafafa;
