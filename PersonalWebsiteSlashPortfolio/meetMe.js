@@ -61,7 +61,7 @@ function box3BackToNormal()
 function box4Function()
 {
     let box =document.querySelector("#box4")
-    box.innerText = "I have lived in Cedar Falls for 16 years."
+    box.innerText = "I lived in the Cedar Valley for 18 years."
     box.style.color = "#0a0a0a"
     box.style.backgroundColor = "#fafafa"
     box.onmouseout = function(){};
@@ -72,7 +72,7 @@ function box4Function()
 function box4BackToNormal()
 {
     let box =document.querySelector("#box4")
-    box.innerText = "Grew up in Cedar Falls"
+    box.innerText = "Grew up in the Cedar Valley"
     box.style.color = "#fafafa"
     box.style.backgroundColor = "#0a0a0a"
 }
@@ -156,7 +156,7 @@ function box8BackToNormal()
 function box9Function()
 {
     let box =document.querySelector("#box9")
-    box.innerText = "I have over 200 hours in the game and have completed 100% of it. I think I might like it a little."
+    box.innerText = "I have over 250 hours in BotW and have completed 100% of it. I have over 380 hours in TotK. I think I might like them a little."
     box.style.color = "#0a0a0a"
     box.style.backgroundColor = "#fafafa"
     box.onmouseout = function(){};
@@ -167,7 +167,7 @@ function box9Function()
 function box9BackToNormal()
 {
     let box =document.querySelector("#box9")
-    box.innerText = "I love Legend of Zelda Breath of the Wild"
+    box.innerText = "I love Legend of Zelda Breath of the Wild and Tears of the Kingdom"
     box.style.color = "#fafafa"
     box.style.backgroundColor = "#0a0a0a"
 }
@@ -327,7 +327,7 @@ function box17BackToNormal()
 function box18Function()
 {
     let box =document.querySelector("#box18")
-    box.innerText = "My child(tortoise)'s name is Red and I love them a lot. I've had them for 8 years now."    
+    box.innerText = "My child(tortoise)'s name is Red and I love them a lot. I've had them for 9 years now."    
     box.style.color = "#0a0a0a"
     box.style.backgroundColor = "#fafafa"
     box.onmouseout = function(){};
