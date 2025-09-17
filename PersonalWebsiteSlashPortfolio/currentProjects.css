@@ -86,11 +86,13 @@ Green & Black
 
 .MostRecentPost img
 {
-  height: 250px;
-  /* width: 150px; */
+  height: 200px;
+  width: auto;
+  max-width: 100%;
   border: solid 3px #fafafa;
   margin: 20px;
   float: left;
+  display: block;
 }
 
 .BlogPost
@@ -111,10 +113,11 @@ Green & Black
 .BlogPost img
 {
   height: 200px;
-  /* width: 100px; */
+  width: auto;
+  max-width: 100%;
   border: solid 3px #fafafa;
   margin: 20px 20px 0px 20px;
-
+  display: block;
 }
 
 #tooLong
@@ -122,3 +125,4 @@ Green & Black
   width: 400px;
   height: 50px;
 }
+
